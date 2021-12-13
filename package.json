@@ -2,6 +2,12 @@
   "name": "transparent-bridges-nodejs",
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
+    "@types/eslint": "^8",
+    "eslint": "^8.4.1",
     "typescript": "^4.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run": "node ./dist/index.js"
   }
 }

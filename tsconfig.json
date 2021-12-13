@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "dom",
+            "es6"
+        ],
+        "module": "commonjs",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "removeComments": true,
+        "moduleResolution": "node",
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
